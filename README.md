@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # admin
+=======
+# backend
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
 
 a [Sails v1](https://sailsjs.com) application
 
@@ -14,13 +18,26 @@ a [Sails v1](https://sailsjs.com) application
 
 ### Version info
 
+<<<<<<< HEAD
 This app was originally generated on Mon Feb 25 2019 14:57:29 GMT+0100 (WAT) using Sails v1.1.0.
+=======
+This app was originally generated on Fri Feb 22 2019 11:56:37 GMT+0100 (WAT) using Sails v1.1.0.
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
 
 <!-- Internally, Sails used [`sails-generate@1.16.5`](https://github.com/balderdashy/sails-generate/tree/v1.16.5/lib/core-generators/new). -->
 
 
+<<<<<<< HEAD
+=======
+This project's boilerplate is based on an expanded seed app provided by the [Sails core team](https://sailsjs.com/about) to make it easier for you to build on top of ready-made features like authentication, enrollment, email verification, and billing.  For more information, [drop us a line](https://sailsjs.com/support).
+
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
 
 <!--
 Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
 -->
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130

@@ -28,27 +28,43 @@ module.exports.security = {
   *                                                                          *
   ***************************************************************************/
 
+<<<<<<< HEAD
   cors: {
     allRoutes: true,
     allowOrigins: '*',
     allowCredentials: true,
   },
+=======
+  // cors: {
+  //   allRoutes: false,
+  //   allowOrigins: '*',
+  //   allowCredentials: false,
+  // },
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
 
 
   /****************************************************************************
   *                                                                           *
+<<<<<<< HEAD
   * By default, Sails' built-in CSRF protection is disabled to facilitate     *
   * rapid development.  But be warned!  If your Sails app will be accessed by *
   * web browsers, you should _always_ enable CSRF protection before deploying *
   * to production.                                                            *
   *                                                                           *
   * To enable CSRF protection, set this to `true`.                            *
+=======
+  * CSRF protection should be enabled for this application.                   *
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
   *                                                                           *
   * For more information, see:                                                *
   * https://sailsjs.com/docs/concepts/security/csrf                           *
   *                                                                           *
   ****************************************************************************/
 
+<<<<<<< HEAD
   // csrf: false
+=======
+  csrf: true
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
 
 };

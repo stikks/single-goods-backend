@@ -39,8 +39,17 @@
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     "Promise": true,
     "sails": true,
+<<<<<<< HEAD
     "_": true
     // …and any others (e.g. `"Organization": true`)
+=======
+    "_": true,
+
+    // Models:
+    "User": true
+    
+    // …and any others.
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   },
 
@@ -73,11 +82,15 @@
     "no-return-assign":             ["error", "always"],
     "no-sequences":                 ["error"],
     "no-trailing-spaces":           ["warn"],
+<<<<<<< HEAD
     "no-undef":                     ["off"],
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     // ^^Note: If this "no-undef" rule is enabled (set to `["error"]`), then all model globals
     // (e.g. `"Organization": true`) should be included above under "globals".
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+=======
+    "no-undef":                     ["error"],
+>>>>>>> 7fcab619eab2897046ca03a6512fd55cbca43130
     "no-unexpected-multiline":      ["warn"],
     "no-unreachable":               ["warn"],
     "no-unused-vars":               ["warn", {"caughtErrors":"all", "caughtErrorsIgnorePattern": "^unused($|[A-Z].*$)", "argsIgnorePattern": "^unused($|[A-Z].*$)", "varsIgnorePattern": "^unused($|[A-Z].*$)" }],
