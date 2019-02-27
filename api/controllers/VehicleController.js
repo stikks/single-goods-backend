@@ -6,7 +6,11 @@
  */
 
 module.exports = {
-  
-
+    /**
+     * handle feedback response from customs 
+     */
+    customsFeedback: function(req, res) {
+        res.json({success: true});
+    }
 };
 

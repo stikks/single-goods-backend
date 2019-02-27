@@ -21,6 +21,11 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
+  // http requests to customs 
+  '/api/v1/check': 'AccountController.checkVehicle',
+
+  // feedback from customs
+  '/api/v1/vehicles': 'VehicleController.customsFeedback'
 
   /***************************************************************************
   *                                                                          *

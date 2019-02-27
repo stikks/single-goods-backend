@@ -12,12 +12,11 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    email: {
-      type: 'string'
-    },
-    chassis_number: {
-      type: 'string' 
-    }
+    id: { type: 'number', autoIncrement: true },
+    createdAt: { type: 'number', autoCreatedAt: true },
+    updatedAt: { type: 'number', autoUpdatedAt: true },
+    email: { type: 'string', required: true },
+    chassis_number: { type: 'string', required: true }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
