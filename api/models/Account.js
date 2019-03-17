@@ -28,6 +28,14 @@ module.exports = {
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
 
   },
+  validationMessages: {
+    email: {
+      required: 'Email field is required'
+    },
+    chassis_number: {
+      required: 'Chassis Number is required'
+    }
+  }
 
 };
 

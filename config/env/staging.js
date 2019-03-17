@@ -71,7 +71,7 @@ module.exports = Object.assign({}, PRODUCTION_CONFIG, {
 
   custom: Object.assign({}, PRODUCTION_CONFIG.custom, {
 
-    baseUrl: 'https://staging.example.com',
+    baseUrl: 'http://localhost:1337',
     //--------------------------------------------------------------------------
     // /\  Hard-code the base URL where your staging environment is hosted.
     // ||  (or use system env var: `sails_custom__baseUrl`)
@@ -87,7 +87,7 @@ module.exports = Object.assign({}, PRODUCTION_CONFIG, {
     // stripeSecret: 'sk_sandbox__fake_Nfgh82401348jaDa3lkZ0d9Hm',
     // stripePublishableKey: 'pk_sandbox__fake_fKd3mZJs1mlYrzWt7JQtkcRb',
     //--------------------------------------------------------------------------
-    // /\  Hard-code credentials to use in staging for other 3rd party APIs, etc.
+    // /\  Hard-code credentials to use in st1337aging for other 3rd party APIs, etc.
     // ||  (or use system environment variables prefixed with "sails_custom__")
     //--------------------------------------------------------------------------
 

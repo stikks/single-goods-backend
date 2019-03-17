@@ -14,11 +14,12 @@ module.exports = {
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
     token: {
       type: 'string',
-      required: true
+      required: true,
+      columnType: 'text'
     },
     expires: {
       type: 'string',
-      required: true
+      required: false
     }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗

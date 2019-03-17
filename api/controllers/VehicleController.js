@@ -11,6 +11,10 @@ module.exports = {
      */
     customsFeedback: function(req, res) {
         res.json({success: true});
+    },
+
+    dummyendPoint: function(req, res) {
+        res.json({success: true})
     }
 };
 

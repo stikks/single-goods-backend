@@ -28,7 +28,7 @@ module.exports = function expired() {
   sails.log.verbose('Ran custom response: res.expired()');
 
   if (req.wantsJSON) {
-    return res.status(498).send('Token Expired/Invalid');
+    return res.status(498).json({'message': 'Token Expired/Invalid'});
   }
   else {
     return res.status(498).view('498');
